@@ -1,0 +1,447 @@
+body{
+    background-color: ghostwhite;
+       
+    margin: 0px;
+
+}
+
+#pageMiddle{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+    position: relative
+}
+
+.accounts{
+            -webkit-column-count: 3; /* Chrome, Safari, Opera */
+            -moz-column-count: 3; /* Firefox */
+            column-count: 3;
+        }
+
+a{
+    
+    text-decoration: none;
+    
+    color: #BD0808;
+    
+    background-color: transparent;
+    
+}
+
+a:hover{
+    
+    color: #FFFFFF;
+    
+    transition: all 0.3s ease;
+    
+    cursor: pointer;
+    
+}
+
+h2{
+
+    text-align: center;
+    
+    font-size: 40px;
+    
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+
+hr{
+    
+    width: 1000px;
+    
+}
+
+#mainWall{
+
+/*   background-image: url(images/youDidIt.png);*/
+    
+    background-size: 100% 100%;
+    
+    -webkit-background-size: 100% 100%;
+    
+    -moz-background-size: 100% 100%;
+    
+    -o-background-size: 100% 100%;
+        
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    
+    background-position: center;
+    
+    height: 700px;
+   
+}
+
+
+#boxes{
+    
+    shape-inside: polygon();
+    
+    margin-top: 5%;
+    
+    height: 400px;
+    
+    width: 300px;
+    
+    float: left; 
+    
+    opacity: 1.0;
+    
+    background-color: #ADADAD;
+    
+    border-bottom-left-radius: 15%;
+    
+    border-bottom-right-radius: 15%;
+    
+    border-top-left-radius: 15%;
+    
+    border-top-right-radius: 15%;
+    
+    border-color: #1C1A1A;
+    
+    border-width: medium;
+    
+    margin-left: 100px;
+    
+    text-align: center;
+    
+    margin-bottom: 65px;
+    
+    background-image: url(../images/Intern%20Pursuit%20Logo-02%20Student.png);
+    
+    background-repeat: no-repeat;
+    
+    background-size: 100% 100%;
+    
+    background-blend-mode:darken;
+   
+    transition: 0.3s;
+    
+}
+
+#boxes2{
+    
+    shape-inside: polygon();
+    
+    margin-top: 5%;
+    
+    height: 400px;
+    
+    width: 300px;
+    
+    float: left; 
+    
+    opacity: 1.0;
+    
+    background-color: #ADADAD;
+    
+    border-bottom-left-radius: 15%;
+    
+    border-bottom-right-radius: 15%;
+    
+    border-top-left-radius: 15%;
+    
+    border-top-right-radius: 15%;
+    
+    border-color: #1C1A1A;
+    
+    border-width: thick;
+    
+    margin-left: 100px;
+   
+    text-align: center;
+    
+    margin-bottom: 65px;
+    
+    transition: 0.3s;
+    
+    background-blend-mode:darken;
+    
+    background-image: url(../images/Intern%20Pursuit%20Logo-02%20Business.png);
+    
+    background-repeat: no-repeat;
+    
+    background-size: 100% 100%;
+    
+}
+
+#boxes3{
+    
+    shape-inside: polygon();
+    
+    margin-top: 5%;
+    
+    height: 400px;
+    
+    width: 300px;
+    
+    float: left; 
+    
+    opacity: 1.0;
+    
+    background-color: #ADADAD;
+    
+    border-bottom-left-radius: 15%;
+    
+    border-bottom-right-radius: 15%;
+    
+    border-top-left-radius: 15%;
+    
+    border-top-right-radius: 15%;
+    
+    border-color: #1C1A1A;
+    
+    border-width: thin;
+    
+    margin-left: 100px;
+ 
+    text-align: center;
+   
+    margin-bottom: 65px;
+    
+    transition: 0.3s;
+    
+    background-blend-mode:darken;
+    
+    background-image:url(../images/IP_school_icon2.jpg);
+    
+    background-repeat: no-repeat;
+    
+    background-size: 100% 75%;
+      
+}
+
+#boxes p, #boxes2 p{
+    
+    font-size: 20px;
+    
+    font-weight: 600;
+    
+    color: #FFFFFF;
+    
+    margin-left: 0%;
+    
+    font-family: 'Quicksand', sans-serif;
+    
+    text-shadow: #1C1A1A 0.5px 0.5px 0.5px;
+    
+}
+
+#boxes3 p{
+    
+    font-size: 20px;
+    
+    font-weight: 600;
+    
+    color: #FFFFFF;
+    
+    font-family: 'Quicksand', sans-serif;
+    
+    text-shadow: #1C1A1A 0.5px 0.5px 0.5px;
+        
+}
+
+#info{
+    
+    margin-top: 250px;
+    
+    height: auto;
+    
+    opacity: 1;
+    
+}
+
+#boxes:hover{
+
+    
+    cursor: pointer;
+    
+    box-shadow: -5px 5px 5px 5px #1C1A1A;
+    
+    transition: 0.3s;
+        
+    height: 405px;
+    
+    width: 305px;
+    
+} 
+
+#boxes2:hover{
+    
+    cursor: pointer;
+    
+     box-shadow: -5px 5px 5px 5px #1C1A1A;
+    
+    transition: 0.3s;
+    
+    height: 405px;
+    
+    width: 305px;
+        
+    
+} 
+
+#boxes3:hover{
+    
+    transition: 0.3s;
+    
+    cursor: pointer;
+    
+    box-shadow: -5px 5px 5px 5px #1C1A1A;
+    
+    height: 405px;
+    
+    width: 305px;
+    
+}
+
+#info{
+    
+    margin-top: 250px;
+    
+    height: auto;
+    
+    opacity: 1;
+    
+}
+
+#body_txt{
+    
+    margin-bottom: 200px;
+    
+    font-size: 20px;
+    
+    font-family: 'Quicksand', sans-serif;
+    
+    font-weight: 600;
+            
+}
+
+#body_txt p{
+    
+    margin-left: 10%;
+    
+    margin-right: 10%;
+    
+}
+
+
+
+/*Style for school logos*/
+
+#school_logos{
+    
+    height: 100px;
+    
+    padding-bottom: 150px;
+    
+    margin-bottom: 70px;
+    
+    margin-left: 20px;
+    
+    z-index: 0;
+    
+}
+
+#school_logos span{
+    
+    padding-left: 2em;
+    
+}
+
+
+/*End styles*/
+
+/*Styles for testimonials*/
+.cust-quotes {
+  width: 640px;
+  height:350px;
+  position:relative;
+margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.cust-quotes blockquote {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  font-size: 14px;
+  text-align: center;
+  opacity: 0;
+  z-index: 0;
+  transition: opacity 0.5s ease-out 0s, transform 0.5s ease-in 0s;
+}
+
+/* IE < 10 fallback */
+.no-csstransitions .cust-quotes blockquote,
+.no-csstransforms .cust-quotes blockquote {
+   position:relative;
+}
+
+.cust-quotes blockquote:first-child {
+    opacity: 0;
+    transform: translateY(-10px) scale(1.1);
+}
+.cust-quotes blockquote:first-child + blockquote {
+    opacity: 1;
+    z-index: 1;
+    transition: opacity 1.6s ease 0s;
+}
+.cust-quotes blockquote p{
+  font-size:24px;
+  font-weight:800;
+  font-style:italic;
+   overflow-y: hidden;
+    font-family: 'Quicksand', sans-serif;
+  color:#353535;
+  line-height: 35px;
+  margin-bottom: 10px;
+
+    text-align: center;
+}
+.cust-quotes blockquote p:before {
+   content: '\201C';
+}
+.cust-quotes blockquote p:after {
+   content: '\201D';
+}
+.cust-quotes blockquote cite {
+    text-align: center;
+    font-size: 14px;
+    color: #898989;
+}
+.cust-quotes blockquote cite a {
+  font-size:14px;
+  font-weight:normal;
+}
+
+
+
+.container {
+  
+max-width:940px;
+margin:0 auto;  
+
+}
+
+#testimonials {
+    
+margin-top: 50px;
+
+margin-left: 200px;
+    
+text-align: center;
+    
+width:940px;
+
+font-family: 'Quicksand', sans-serif;
+        
+}
+
+/*End styles*/
